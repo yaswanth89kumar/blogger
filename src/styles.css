@@ -1,1 +1,192 @@
 /* You can add global styles to this file, and also import other style files */
+.ds,.dt,.du,.dv,.dw,.dx,.dy,.dz,.ea,.eb,.ec,.ed,.dr,.ee,.ef,.eg,.eh,.ei,.ej,.ek,.el,.em,.en,.eo,.ep,.eq,
+.er,.es,.et,.eu,.ev,.ew,.ex,.ey,.ez,.fa,.fb,.fc,.fd,.fe,.ff,.fg,.fh,.fi,.fj,.fk,.fl,.fm,.fn,.fo,.fp,.fq,
+.fr,.fs,.ft,.fu,.fv,.fw,.fx,.fy,.fz,.ga,.gb,.gc,.gd,.ge,.gf,.gg,.gh,.gi {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+.bow {
+  padding-left: 0;
+  list-style: none;
+}
+.afo,.afl {
+  margin-bottom: 1.5rem !important;
+}
+.ca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+ol,ul,dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.box .rv.b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+}
+.b:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.rv,.rw {
+  overflow: visible;
+}
+.agz {
+  padding: 1.5rem !important;
+}
+.b {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.rv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.left{
+  text-align: justify;
+}
+.afo, .afl {
+  margin-bottom: 1.5rem !important;
+}
+.pz {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.bpi .qf {
+  height: 150px;
+  background-size: cover;
+}
+.qf:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.qf {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.avz {
+  text-align: center !important;
+}
+.qa {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.pz.vp.vy.afo .qa a {
+  color: #3097D1 !important;
+}
+a {
+  color: #3097D1;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.bpj {
+  max-width: 100px;
+  margin-top: -70px;
+  margin-bottom: 5px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.bpi .qb {
+  margin-bottom: 5px;
+}
+.qb {
+  margin-bottom: 0.75rem;
+}
+.boa, .boa:hover, .boa:focus {
+  color: inherit;
+  text-decoration: inherit;
+}
+.afo, .afl {
+  margin-bottom: 1.5rem !important;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.bpk {
+  list-style: none;
+  padding: 0;
+}
+.bpl {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid #d4dbe0;
+}
+.bpl:last-child {
+  border-right: 0;
+}
+.afh, .afe {
+  margin-bottom: 1rem !important;
+}
+h6, .ct {
+  font-size: 1rem;
+}
+small, .da {
+  font-size: 80%;
+  font-weight: 400;
+}
+.dc {
+  padding-left: 0;
+  list-style: none;
+}
+p.comment .fa {
+  width: 0% !important;
+  left: -14px  !important;
+}
+
+.user {
+  color: #fff;
+  right: 3%;
+  position: absolute;
+  top: 25%;
+}
