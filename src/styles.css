@@ -69,7 +69,7 @@ ol,ul,dl {
   align-items: flex-start;
 }
 .left{
-  text-align: left;
+  text-align: justify;
 }
 .afo, .afl {
   margin-bottom: 1.5rem !important;
@@ -114,6 +114,9 @@ ol,ul,dl {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+}
+.pz.vp.vy.afo .qa a {
+  color: #3097D1 !important;
 }
 a {
   color: #3097D1;
@@ -176,14 +179,9 @@ small, .da {
   padding-left: 0;
   list-style: none;
 }
-a {
-  color: #3097D1;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
 p.comment .fa {
   width: 0% !important;
+  left: -14px  !important;
 }
 
 .user {

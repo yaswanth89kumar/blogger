@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public menuItems: any[];
+
   constructor() { }
 
   ngOnInit() {
+    this.menuItems = ['post', 'followers', 'queries', 'inbox'];
   }
 
 }
