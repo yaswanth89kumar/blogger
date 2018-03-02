@@ -10,14 +10,11 @@ import { LeftpanelComponent } from './content/leftpanel/leftpanel.component';
 import { RightpanelComponent } from './content/rightpanel/rightpanel.component';
 import { MainpanelComponent } from './content/mainpanel/mainpanel.component';
 import { RegisterComponent } from './register/register.component';
-import { ProfileComponent } from './profile/profile.component';
-import { UserleftpanelComponent } from './profile/userleftpanel/userleftpanel.component';
-import { UsermainpanelComponent } from './profile/usermainpanel/usermainpanel.component';
-import { UserrightpanelComponent } from './profile/userrightpanel/userrightpanel.component';
+import { ProfileComponent } from './content/leftpanel/profile/profile.component';
 
 const appRoutes: Routes = [
-  { path: '', component: MainpanelComponent },
-  { path: 'profile', component: ProfileComponent}
+  { path: '', component: MainpanelComponent }
+  // { path: 'profile', component: }
 ];
 
 
@@ -31,9 +28,6 @@ const appRoutes: Routes = [
     MainpanelComponent,
     RegisterComponent,
     ProfileComponent,
-    UserleftpanelComponent,
-    UsermainpanelComponent,
-    UserrightpanelComponent
   ],
   imports: [
     BrowserModule,

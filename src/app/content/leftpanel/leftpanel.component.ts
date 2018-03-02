@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leftpanel.component.css']
 })
 export class LeftpanelComponent implements OnInit {
-
+  currentUrl: string;
   constructor() { }
 
   ngOnInit() {
+    this.currentUrl = "/profile";
   }
 
 }
