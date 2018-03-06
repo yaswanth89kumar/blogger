@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 @Component({
   selector: 'app-header',
@@ -8,8 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   public menuItems: any[];
+  public username: string;
 
-  constructor() { }
+  constructor(private af: AngularFireAuth) {
+    this.af.authState.subscribe(res=>{
+      this.username = (res != null)? res.displayName : null;
+    });
+  }
 
   ngOnInit() {
     this.menuItems = ['post', 'followers', 'queries', 'inbox'];

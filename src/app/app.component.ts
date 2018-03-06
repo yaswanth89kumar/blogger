@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MessagesService } from './services/messages.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  constructor(private messageService: MessagesService) {
+    this.messageService.getMessage().subscribe(res=>console.log(res));
+  }
 }
